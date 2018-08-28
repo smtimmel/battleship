@@ -1,3 +1,7 @@
+# Battleship Game Summary
+
+Battleship is a classic game in which two players attempt to shoot at ships on the other's board.  If all portions of the ship are hit the ship sinks.  When one player has no ships left, the other player wins.
+
 # How to Run
 
 This implementation of battleship uses a Socket-Server system. To run, start a first instance of the program and choose to host a game. Connections details will be provided. Begin a second instance of the program and choose not to host a game. Enter the requested connection details provided by the first program instance.  Setup will begin for both players (program instances). The empty board and total number of each ship (different lengths) will be provided. Inputs will be requested as all the positions of the requested ship, separating by commas. For example, if a ship of length 3 is requested, entering the input A1,A2,A3 is allowed as each position component is separated by a comma. When placing ships, each position in the ship must be horizontally or vertically adjacent.  The players will begin taking turns as soon as both players finish the setup. When it is their turn, a player enters a coordinate to fire to.  The player will be notified if the shot was a hit or miss. When one player loses all ships, the game ends!
